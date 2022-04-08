@@ -1,0 +1,382 @@
+
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+
+body {
+    font-family: 'Parisienne', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.masthead{
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+h1 {
+    font-size: 1.2rem;
+    
+}
+
+.container h1 {
+    font-family: 'Parisienne', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif
+}
+
+
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+
+
+}
+
+.blackbg{
+    background-color: #fda4ba;
+}
+
+.widthresponsive{
+    background-color: #fda4ba;
+}
+
+.blackbg
+
+.mywork{
+    color: white;
+    padding-top: 20px;
+}
+
+.cardresponsive{
+    height: 100%;
+}
+
+
+/* FOOTER */
+
+ .footer{
+    padding-top: 40px
+}
+
+.footer h1 {
+    color: white;
+    font-size: 2.2rem;
+}
+
+
+.footer p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+/*  */
+
+footer {
+    background-color: red;
+    padding-top: 190px;
+    border-top: 5px solid rgba(0, 0, 0, .2);
+}
+
+#contact-left h3,
+#contact-right h3{
+    color: white !important;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#contact-left p{
+    color: white;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fda4ba;
+
+}
+
+.text h3{
+    color: #fda4ba;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container2 .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .contactInfo .box{
+    position: relative;
+    padding: 20px 0 ;
+    display: flex;
+}
+
+.container2 .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container2 .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container2 .contactInfo .box .text h3{
+    font-weight: 500;
+}
+
+
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #fda4ba;;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+      width: 100%;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid #333;
+      outline: none;
+      resize: none;
+}
+
+.contactForm .inputBox span {
+      position: absolute;
+      left: 0;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      pointer-events: none;
+      transition: 0.5s;
+      color: #666;
+
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm  .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background:  #fda4ba;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* IMG GALLERY  */
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container3 .heading {
+width:  100%;
+padding-bottom: 50px;
+}
+
+.container3 .heading h3 {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+
+}
+
+.container3 .heading h3 span {
+font-weight: 100;
+}
+
+.container3 .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3 .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container3 .box .dream img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* UNTIL HERE GOD */
+
+
+
+.container3 .btn {
+    margin: 40px 0 70px 0;
+    background: #222;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.container3 .btn a {
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+
+
+@media (min-width: 991px) {
+    .container3 .box {
+        max-width: 50%;
+    }
+}
+
+
+
+
+@media (max-width: 991px) {
+    .contact {
+        padding: 50px;
+    }
+
+    .container2 {
+        flex-direction: column;
+    }
+
+    .container2 .contactInfo {
+        margin-bottom: 40px;
+    }
+
+    .container2 .contactInfo,
+    .contactForm {
+        width: 100%;
+    }
+
+    .container2 .contactInfo .box .text p {
+        font-size: 12px;
+    }
+
+    
+}
+
+
+
+
+
+
+@media (max-width: 768px)
+  {
+      
+    .masthead{
+        min-height: 70vh;
+    }
+    
+
+   
+}
+
+@media (min-width: 768px)  {
+    .widthresponsive {
+        width: 75%;
+    }
+
+    .cardresponsive{
+        height: 100%;
+    }
+
+   
+    
+}
+
+
+@media (min-width: 1200px) {
+     h2 {
+         margin-top: 20px;
+     }
+
+     .container h1{
+         padding: 20px;
+     }
+
+   .widthresponsive {
+       width: 50%;
+   }
+
+   .footer {
+       width: 90%;
+   }
+}
